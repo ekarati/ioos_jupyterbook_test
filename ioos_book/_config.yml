@@ -32,10 +32,13 @@ notebook_interface            : "notebook"
 
 #######################################################################################
 # Launch button settings
+use_repository_button         : true  # Whether to add a link to your repository button
+use_issues_button             : true  # Whether to add an "open an issue" button
+
 repository:
-  url                         : https://github.com/ekarati/ioos_jupyterbook_test/ioos_book
-  use_repository_button       : true  # Whether to add a link to your repository button
-  use_issues_button           : true  # Whether to add an "open an issue" button
+  url                         : https://github.com/ekarati/ioos_jupyterbook_test
+  path_to_book                : "/ioos_book"  # A path to your book's folder, relative to the repository root
+  branch                      : master
 
 latex:
   latex_engine                : "xelatex"
