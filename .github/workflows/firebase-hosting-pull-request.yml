@@ -26,6 +26,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          publish_dir: ./ioos_book/_build/html
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_IOOS_JBOOK_TEST }}'
           projectId: ioos-jbook-test
         env:
