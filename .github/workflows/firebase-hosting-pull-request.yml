@@ -8,6 +8,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+          # Install Python using another Action
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      # Install the book dependencies
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      # Build the book
+      - name: Build the book
+        run: |
+          jupyter-book build ./ioos_book
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
