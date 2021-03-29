@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/firebase",
+    "public": "ioos_book/_build/html",
     "ignore": [
       "firebase.json",
       "**/.*",
