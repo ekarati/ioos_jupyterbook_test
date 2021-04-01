@@ -22,6 +22,8 @@
       sections:
         - file: content/Code Gallery/R Code/2017-01-23-R-notebook.ipynb
         - file: content/Code Gallery/R Code/2017-08-01-xtractoR.ipynb
+        - file: content/Code Gallery/R Code/2017-11-30-rerddap.ipynb
+        - file: content/Code Gallery/R Code/2018-02-20-obis.ipynb
     - file: content/Code Gallery/Matlab Code/Matlab_code.md
       sections:
         - file: content/Code Gallery/Matlab Code/2017-03-30-octave_notebook_example.ipynb
@@ -35,9 +37,7 @@
         - file: content/Code Gallery/Finding Data/2017-05-14-running_compliance_checker.ipynb
         - file: content/Code Gallery/Finding Data/2017-06-12-NCEI_RA_archive_history.ipynb
         - file: content/Code Gallery/Finding Data/2017-07-25-HFRadar_currents.ipynb
-        - file: content/Code Gallery/Finding Data/2017-11-30-rerddap.ipynb
         - file: content/Code Gallery/Finding Data/2017-12-15-finding_HFRadar_currents.ipynb
-        - file: content/Code Gallery/Finding Data/2018-02-20-obis.ipynb
         - file: content/Code Gallery/Finding Data/2019-02-26-hurricane_gis_part01.ipynb
         - file: content/Code Gallery/Finding Data/2019-05-27-hurricane_gis_part02.ipynb
     - file: content/Code Gallery/Using Data/using_data.md
